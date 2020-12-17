@@ -46,13 +46,13 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'http://proceedings.mlr.press/v97/behrmann19a.html'
+url_code: 'https://github.com/jhjacobsen/invertible-resnet'
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'http://proceedings.mlr.press/v97/behrmann19a.html'
+url_source: ''
 url_video: ''
 
 # Featured image
