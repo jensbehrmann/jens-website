@@ -70,5 +70,6 @@ email: ""
 highlight_name: false
 ---
 
-I´m Jens
+I am a postdoctoral researcher at the Center for Industrial Mathematics, University of Bremen, Germany. During my Ph.D. I worked on principled ways to construct neural network architectures. I am fascinated by the mathematical foundations of deep learning, in particular in generative modeling and robust invertible neural networks. My goal is to combine this deep understanding with application-driven solutions. I enjoy working on problems arising in life science, see e.g. my publications on Imaging Mass Spectrometry, and broadly in industrial applications. My background is in applied mathematics, with a focus on modeling complex phenomena, signal processing, and machine learning.
+
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "files/cv.pdf" "newtab" >}}CV{{< /staticref >}}.
