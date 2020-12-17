@@ -1,5 +1,5 @@
 ---
-title: "Residual Flows for Invertible Generative Modeling"
+title: "Excessive Invariance Causes Adversarial Vulnerability"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
