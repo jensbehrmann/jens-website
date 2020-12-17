@@ -15,11 +15,11 @@ authors:
 # author_notes:
 
 
-date: "2019-06"
+date: "2019-06-01"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2019-06"
+publishDate: "2019-06-01"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
