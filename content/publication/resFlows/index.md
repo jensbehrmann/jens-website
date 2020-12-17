@@ -5,11 +5,11 @@ title: "Residual Flows for Invertible Generative Modeling"
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- admin
-- Will Grathwohl
 - Ricky T. Q. Chen
+- admin
 - David Duvenaud
 - Joern-Henrik Jacobsen
+
 
 # Author notes (optional)
 # author_notes:
@@ -28,13 +28,13 @@ publishDate: "2019-12-01"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Conference on Machine Learning*
-publication_short: In *ICML*
+publication: In *Neural Information Processing Systems*
+publication_short: In *NeurIPS*
 
-abstract: We show that standard ResNet architectures can be made invertible, allowing the same model to be used for classification, density estimation, and generation. Typically, enforcing invertibility requires partitioning dimensions or restricting network architectures. In contrast, our approach only requires adding a simple normalization step during training, already available in standard frameworks. Invertible ResNets define a generative model which can be trained by maximum likelihood on unlabeled data. To compute likelihoods, we introduce a tractable approximation to the Jacobian log-determinant of a residual block. Our empirical evaluation shows that invertible ResNets perform competitively with both state-of-the-art image classifiers and flow-based generative models, something that has not been previously achieved with a single architecture. 
+abstract: Flow-based generative models parameterize probability distributions through an invertible transformation and can be trained by maximum likelihood. Invertible residual networks provide a flexible family of transformations where only Lipschitz conditions rather than strict architectural constraints are needed for enforcing invertibility. However, prior work trained invertible residual networks for density estimation by relying on biased log-density estimates whose bias increased with the network's expressiveness. We give a tractable unbiased estimate of the log density using a "Russian roulette" estimator, and reduce the memory required during training by using an alternative infinite series for the gradient. Furthermore, we improve invertible residual blocks by proposing the use of activation functions that avoid derivative saturation and generalizing the Lipschitz condition to induced mixed norms. The resulting approach, called Residual Flows, achieves state-of-the-art performance on density estimation amongst flow-based models, and outperforms networks that use coupling blocks at joint generative and discriminative modeling. 
 
 # Summary. An optional shortened abstract.
-summary: Standard ResNet architectures can be made invertible, allowing the same model to be used for classification, density estimation, and generation. 
+summary: Residual Flows are normalizing flows build using invertible residual networks and efficient log-density estimation.
 
 tags: []
 
@@ -46,8 +46,8 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'http://proceedings.mlr.press/v97/behrmann19a.html'
-url_code: 'https://github.com/jhjacobsen/invertible-resnet'
+url_pdf: 'https://papers.nips.cc/paper/2019/hash/5d0d5594d24f0f955548f0fc0ff83d10-Abstract.html'
+url_code: 'https://github.com/rtqichen/residual-flows'
 url_dataset: ''
 url_poster: ''
 url_project: ''
