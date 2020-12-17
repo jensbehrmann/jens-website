@@ -1,5 +1,5 @@
 ---
-title: "An example conference paper"
+title: "Invertible Residual Networks"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -12,7 +12,7 @@ authors:
 - Joern-Henrik Jacobsen
 
 # Author notes (optional)
-author_notes:
+# author_notes:
 
 
 date: "2013-07-01T00:00:00Z"
