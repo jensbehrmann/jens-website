@@ -1,26 +1,25 @@
 ---
-title: "Fundamental Tradeoffs between Invariance and Sensitivity to Adversarial Perturbations"
+title: "Residual Flows for Invertible Generative Modeling"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Joern-Henrik Jacobsen
+- Ricky T. Q. Chen
 - admin
-- Richard Zemel
-- Matthias Bethge
-
+- David Duvenaud
+- Joern-Henrik Jacobsen
 
 
 # Author notes (optional)
 # author_notes:
 
 
-date: "2019-04-10"
+date: "2019-12-01"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2019-04-10"
+publishDate: "2019-12-01"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -29,13 +28,13 @@ publishDate: "2019-04-10"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Conference on Learning Representations*
-publication_short: In *ICLR*
+publication: In *Neural Information Processing Systems*
+publication_short: In *NeurIPS*
 
-abstract: Despite their impressive performance, deep neural networks exhibit striking failures on out-of-distribution inputs. One core idea of adversarial example research is to reveal neural network errors under such distribution shifts. We decompose these errors into two complementary sources: sensitivity and invariance. We show deep networks are not only too sensitive to task-irrelevant changes of their input, as is well-known from epsilon-adversarial examples, but are also too invariant to a wide range of task-relevant changes, thus making vast regions in input space vulnerable to adversarial attacks. We show such excessive invariance occurs across various tasks and architecture types. On MNIST and ImageNet one can manipulate the class-specific content of almost any image without changing the hidden activations. We identify an insufficiency of the standard cross-entropy loss as a reason for these failures. Further, we extend this objective based on an information-theoretic analysis so it encourages the model to consider all task-dependent features in its decision. This provides the first approach tailored explicitly to overcome excessive invariance and resulting vulnerabilities.
+abstract: Flow-based generative models parameterize probability distributions through an invertible transformation and can be trained by maximum likelihood. Invertible residual networks provide a flexible family of transformations where only Lipschitz conditions rather than strict architectural constraints are needed for enforcing invertibility. However, prior work trained invertible residual networks for density estimation by relying on biased log-density estimates whose bias increased with the network's expressiveness. We give a tractable unbiased estimate of the log density using a "Russian roulette" estimator, and reduce the memory required during training by using an alternative infinite series for the gradient. Furthermore, we improve invertible residual blocks by proposing the use of activation functions that avoid derivative saturation and generalizing the Lipschitz condition to induced mixed norms. The resulting approach, called Residual Flows, achieves state-of-the-art performance on density estimation amongst flow-based models, and outperforms networks that use coupling blocks at joint generative and discriminative modeling. 
 
-# Summary. 
-summary: We show deep networks are not only too sensitive to task-irrelevant changes of their input, but also too invariant to a wide range of task-relevant changes, thus making vast regions in input space vulnerable to adversarial attacks.
+# Summary. An optional shortened abstract.
+summary: Residual Flows are normalizing flows build using invertible residual networks and efficient log-density estimation.
 
 tags: []
 
@@ -47,8 +46,8 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://openreview.net/forum?id=BkfbpsAcF7'
-url_code: ''
+url_pdf: 'https://papers.nips.cc/paper/2019/hash/5d0d5594d24f0f955548f0fc0ff83d10-Abstract.html'
+url_code: 'https://github.com/rtqichen/residual-flows'
 url_dataset: ''
 url_poster: ''
 url_project: ''
