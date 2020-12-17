@@ -35,10 +35,10 @@ publication_types: ["3"]
 publication: arXiv preprint
 publication_short: arXiv preprint
 
-abstract: We show that standard ResNet architectures can be made invertible, allowing the same model to be used for classification, density estimation, and generation. Typically, enforcing invertibility requires partitioning dimensions or restricting network architectures. In contrast, our approach only requires adding a simple normalization step during training, already available in standard frameworks. Invertible ResNets define a generative model which can be trained by maximum likelihood on unlabeled data. To compute likelihoods, we introduce a tractable approximation to the Jacobian log-determinant of a residual block. Our empirical evaluation shows that invertible ResNets perform competitively with both state-of-the-art image classifiers and flow-based generative models, something that has not been previously achieved with a single architecture. 
+abstract: Neural networks have recently been established as a viable classification method for imaging mass spectrometry data for tumor typing. For multi-laboratory scenarios however, certain confounding factors may strongly impede their performance. In this work, we introduce Deep Relevance Regularization, a method of restricting what the neural network can focus on during classification, in order to improve the classification performance. We demonstrate how Deep Relevance Regularization robustifies neural networks against confounding factors on a challenging inter-lab dataset consisting of breast and ovarian carcinoma. We further show that this makes the relevance map -- a way of visualizing the discriminative parts of the mass spectrum -- sparser, thereby making the classifier easier to interpret.
 
 # Summary. An optional shortened abstract.
-summary: Standard ResNet architectures can be made invertible, allowing the same model to be used for classification, density estimation, and generation. 
+summary: We introduce Deep Relevance Regularization as a viable classification method for imaging mass spectrometry data for tumor typing.
 
 tags: []
 
