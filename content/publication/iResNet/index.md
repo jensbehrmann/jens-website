@@ -15,8 +15,8 @@ authors:
 # author_notes:
 
 
-date: "June 2019"
-# doi: ""
+date: "2019-06"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2019-06"
