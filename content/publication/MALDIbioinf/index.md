@@ -36,9 +36,6 @@ abstract:
 Motivation
 Tumor classification using imaging mass spectrometry (IMS) data has a high potential for future applications in pathology. Due to the complexity and size of the data, automated feature extraction and classification steps are required to fully process the data. Since mass spectra exhibit certain structural similarities to image data, deep learning may offer a promising strategy for classification of IMS data as it has been successfully applied to image classification.
 
-Results
-Methodologically, we propose an adapted architecture based on deep convolutional networks to handle the characteristics of mass spectrometry data, as well as a strategy to interpret the learned model in the spectral domain based on a sensitivity analysis. The proposed methods are evaluated on two algorithmically challenging tumor classification tasks and compared to a baseline approach. Competitiveness of the proposed methods is shown on both tasks by studying the performance via cross-validation. Moreover, the learned models are analyzed by the proposed sensitivity analysis revealing biologically plausible effects as well as confounding factors of the considered tasks. Thus, this study may serve as a starting point for further development of deep learning approaches in IMS classification tasks. 
-
 # Summary. An optional shortened abstract.
 summary: We propose an adapted architecture based on deep convolutional networks to handle the characteristics of mass spectrometry data.
 
