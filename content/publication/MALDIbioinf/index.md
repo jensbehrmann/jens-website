@@ -32,10 +32,15 @@ publication_types: ["2"]
 publication: In *Bioinformatics*
 publication_short: In *Bioinformatics*
 
-abstract: We show that standard ResNet architectures can be made invertible, allowing the same model to be used for classification, density estimation, and generation. Typically, enforcing invertibility requires partitioning dimensions or restricting network architectures. In contrast, our approach only requires adding a simple normalization step during training, already available in standard frameworks. Invertible ResNets define a generative model which can be trained by maximum likelihood on unlabeled data. To compute likelihoods, we introduce a tractable approximation to the Jacobian log-determinant of a residual block. Our empirical evaluation shows that invertible ResNets perform competitively with both state-of-the-art image classifiers and flow-based generative models, something that has not been previously achieved with a single architecture. 
+abstract:
+Motivation
+Tumor classification using imaging mass spectrometry (IMS) data has a high potential for future applications in pathology. Due to the complexity and size of the data, automated feature extraction and classification steps are required to fully process the data. Since mass spectra exhibit certain structural similarities to image data, deep learning may offer a promising strategy for classification of IMS data as it has been successfully applied to image classification.
+
+Results
+Methodologically, we propose an adapted architecture based on deep convolutional networks to handle the characteristics of mass spectrometry data, as well as a strategy to interpret the learned model in the spectral domain based on a sensitivity analysis. The proposed methods are evaluated on two algorithmically challenging tumor classification tasks and compared to a baseline approach. Competitiveness of the proposed methods is shown on both tasks by studying the performance via cross-validation. Moreover, the learned models are analyzed by the proposed sensitivity analysis revealing biologically plausible effects as well as confounding factors of the considered tasks. Thus, this study may serve as a starting point for further development of deep learning approaches in IMS classification tasks. 
 
 # Summary. An optional shortened abstract.
-summary: Standard ResNet architectures can be made invertible, allowing the same model to be used for classification, density estimation, and generation. 
+summary: We propose an adapted architecture based on deep convolutional networks to handle the characteristics of mass spectrometry data.
 
 tags: []
 
