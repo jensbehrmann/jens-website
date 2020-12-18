@@ -36,7 +36,7 @@ abstract: We propose an adapted architecture based on deep convolutional network
 
 
 # Summary. An optional shortened abstract.
-summary: We propose an adapted architecture based on deep convolutional networks to handle the characteristics of mass spectrometry data.
+summary: In *Bioinformatics*
 
 tags: []
 
