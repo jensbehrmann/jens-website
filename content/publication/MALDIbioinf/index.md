@@ -32,7 +32,7 @@ publication_types: ["2"]
 publication: In *Bioinformatics*
 publication_short: In *Bioinformatics*
 
-abstract:
+abstract: We propose an adapted architecture based on deep convolutional networks to handle the characteristics of mass spectrometry data.
 
 
 # Summary. An optional shortened abstract.
