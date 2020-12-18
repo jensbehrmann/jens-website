@@ -33,8 +33,7 @@ publication: In *Bioinformatics*
 publication_short: In *Bioinformatics*
 
 abstract:
-Motivation
-Tumor classification using imaging mass spectrometry (IMS) data has a high potential for future applications in pathology. Due to the complexity and size of the data, automated feature extraction and classification steps are required to fully process the data. Since mass spectra exhibit certain structural similarities to image data, deep learning may offer a promising strategy for classification of IMS data as it has been successfully applied to image classification.
+
 
 # Summary. An optional shortened abstract.
 summary: We propose an adapted architecture based on deep convolutional networks to handle the characteristics of mass spectrometry data.
