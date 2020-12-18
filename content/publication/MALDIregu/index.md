@@ -51,10 +51,10 @@ featured: false
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/abs/1912.05459'
-url_code: 
+url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'http://www.math.uni-bremen.de/zetem/cms/detail.php?id=15822&language=en'
 url_slides: ''
 url_source: ''
 url_video: ''
