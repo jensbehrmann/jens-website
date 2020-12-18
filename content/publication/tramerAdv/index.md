@@ -35,7 +35,7 @@ publication_short: In *ICML*
 
 
 # Summary. 
-summary: In *International Conference on Machine Learning*
+summary: In *International Conference on Machine Learning (ICML)*
 
 tags: []
 
