@@ -29,12 +29,12 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *International Conference on Learning Represenations*
-publication_short: In *International Conference on Learning Represenations (ICLR)*
+publication_short: In *ICLR*
 
 abstract: 
 
 # Summary. An optional shortened abstract.
-summary: In *ICLR*
+summary: In *International Conference on Learning Represenations (ICLR)*
 
 tags: []
 
