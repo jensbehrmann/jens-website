@@ -6,12 +6,12 @@ title: Jens Behrmann
 superuser: true
 
 # Role/position/tagline
-role: Postdoctoral researcher
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: University of Bremen, Center for Industrial Mathematics, Germany
-  url: http://www.math.uni-bremen.de/zetem/cms/detail.php?template=parse_title&person=ueber&language=en
+- name: Apple AI/ML research, Health AI
+  url: https://machinelearning.apple.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include machine learning, neural networks and applications in life sciences and industry.
@@ -70,7 +70,7 @@ email: ""
 highlight_name: false
 ---
 
-I am a postdoctoral researcher at the Center for Industrial Mathematics, University of Bremen, Germany. During my Ph.D. I worked on principled ways to construct neural network architectures. I am fascinated by the mathematical foundations of deep learning, in particular in generative modeling and robust invertible neural networks. 
+I am a postdoctoral researcher on the Health AI team at Apple AI/ML research. Before, I was a postdoctoral researcher and a PhD student at the University of Bremen, Germany. During my Ph.D. I worked on principled ways to construct neural network architectures. I am fascinated by the mathematical foundations of deep learning, in particular in generative modeling and robust invertible neural networks. 
 
 My goal is to combine a deep understanding of machine learning with an application-driven mindset. I enjoy working on problems arising in life science, see e.g. my publications on Imaging Mass Spectrometry, and broadly in industrial applications. My background is in applied mathematics, with a focus on modeling complex phenomena, signal processing, and machine learning.
 
