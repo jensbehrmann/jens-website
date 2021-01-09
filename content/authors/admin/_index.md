@@ -42,7 +42,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:jensb@uni-bremen.de"
+  link: "mailto:jens.behrmann1988@gmail.com"
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/jensbehrmann
