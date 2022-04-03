@@ -15,11 +15,11 @@ authors:
 # author_notes:
 
 
-date: "2020-10-01"
+date: "2021-03-01"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2020-10-01"
+publishDate: "2021-03-01"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -28,13 +28,13 @@ publishDate: "2020-10-01"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: arXiv preprint
-publication_short: arXiv preprint
+publication: International Conference on Artificial Intelligence and Statistics (AISTATS)
+publication_short: AISTATS
 
 abstract: Invertible neural networks (INNs) have been used to design generative models, implement memory-saving gradient computation, and solve inverse problems. In this work, we show that commonly-used INN architectures suffer from exploding inverses and are thus prone to becoming numerically non-invertible. Across a wide range of INN use-cases, we reveal failures including the non-applicability of the change-of-variables formula on in- and out-of-distribution (OOD) data, incorrect gradients for memory-saving backprop, and the inability to sample from normalizing flow models. We further derive bi-Lipschitz properties of atomic building blocks of common architectures. These insights into the stability of INNs then provide ways forward to remedy these failures. For tasks where local invertibility is sufficient, like memory-saving backprop, we propose a flexible and efficient regularizer. For problems where global invertibility is necessary, such as applying normalizing flows on OOD data, we show the importance of designing stable INN building blocks. 
 
 # Summary. An optional shortened abstract.
-summary: arXiv preprint
+summary: AISTATS proceedings
 
 tags: []
 
@@ -46,7 +46,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2006.09347'
+url_pdf: 'https://proceedings.mlr.press/v130/behrmann21a.html'
 url_code: 'https://github.com/asteroidhouse/INN-exploding-inverses'
 url_dataset: ''
 url_poster: ''
